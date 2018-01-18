@@ -5,8 +5,8 @@ Input format for the data is FASTA, with the IUPAC nucleotide characters.
 
 ## Example of input for three individuals at three SNP loci:
 
->ind1
-ATY
+>ind1 \
+ATY \
 >ind2
 AAY
 >ind3
