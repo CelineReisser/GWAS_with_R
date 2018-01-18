@@ -1,16 +1,16 @@
 # GWAS_with_R
-R code performing Genome-Wide-Association-Study and following a preset segregation model. The fit of the segregation model is tested on the dataset using Fisher's Exact Test.
+R code performing Genome-Wide-Association-Study and following a preset segregation model. The fit of the segregation model is tested on the dataset using a Chi2 Test.
 
 Input format for the data is FASTA, with the IUPAC nucleotide characters.
 
 ## Example of input for three individuals at three SNP loci:
 
->ind1 \
-ATY \
->ind2 \
-AAY \
->ind3 \
-TAN \
+ >ind1 \
+ ATY \
+ >ind2 \
+ AAY \
+ >ind3 \
+ TAN \
 
 ## Exemple of output:
 
